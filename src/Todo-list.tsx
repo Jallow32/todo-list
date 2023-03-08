@@ -46,6 +46,8 @@ export const TodoList: FC = () => {
         onChange={(e) => setInput(e.currentTarget.value)}
         value={input}
       />
+      <br />
+      <br />
       <button onClick={handleClick}>Lägg till aktivitet</button>
 
       <ul>
