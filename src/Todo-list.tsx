@@ -1,4 +1,3 @@
-
 import React, { FC, useState } from "react";
 
 import { FaTrash } from "react-icons/fa";
@@ -67,3 +66,4 @@ export const TodoList: FC = () => {
     </div>
   );
 };
+
